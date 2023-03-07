@@ -1,0 +1,33 @@
+# 素材管理
+Sucai:
+#  随机获取img素材
+  url: https://www.guanyujiang.com/api/bingapi.php?size=640x480&info=true
+#  存放素材目录
+  img: /app/wechat/img/
+# 微语简报-发送给哪些标签用户组
+  news.tagid: [100,20]
+#  这是一个API，主要是对接天行API机器人，实现对话交互
+  tianxing.robot: oooooooooooooooosooooooso
+
+
+# 管理员的openid
+Admin:
+  User: [xxxxxxxxxxxxxxxxxxx]
+
+# 公众号的appid与secret
+wechat:
+  appid: wxzzzzzzzzzzzzzzzzzzzzz
+  secret: sssssssssssssslslslssss
+
+# gateio官网的api key与secret
+gateapi:
+  Key: "xxxxxxxxxxxxxx"
+  Secret: "ssssssssssssssssssssssssssssssssss"
+
+
+log:
+  line: true
+  level: 0
+  path: '/app/log'
+  console: true
+
